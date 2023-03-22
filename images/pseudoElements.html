@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:hover{
+            color: darkblue;
+        }
+        p::first-letter
+        {
+            color: green;
+            font-size: 45px;
+        }
+        p::first-line
+        {
+            color: red;
+            font-style: italic;
+            font-size: 35px;
+        } 
+      li::marker{
+        color:darkred;
+        font-size: 34px;
+      }
+      li::selection{
+        background-color: chartreuse;
+      }
+      
+      p::before
+      {
+        content: ' **';
+        color:red;
+        font-size: 30px;
+      }
+      p::after
+      {
+        content: '!!';
+        color:rgb(119, 225, 43);
+        font-size: 34px;
+      }
+      h1::after
+      {
+        content: ' ""';
+        color: red;
+        font-size: 45px;
+      }
+      #myid
+      {
+        text-align: justify;
+        text-transform: lowercase;
+        color:rgb(1, 44, 82);
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        text-indent: 6%;
+        text-decoration:line-through;
+
+
+       }
+
+       h4{
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: normal;
+        font-weight: bolder;
+        color:red;
+       }
+/*
+css text properties
+font properties in css
+
+
+*/
+      
+    </style>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam facilis accusamus error similique nam, ea
+        reprehenderit beatae minus maxime possimus. Laborum magni odio et repudiandae aperiam iste velit numquam sunt
+        architecto minus laboriosam incidunt, ducimus nisi reprehenderit
+        , excepturi a inventore!</p>
+        <ol>
+            <li>Web developer</li>
+            <li>SQL Developer</li>
+            <li>Python Developer</li>
+        </ol>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo libero dolores tenetur? Sunt itaque excepturi reprehenderit quae vero culpa officia?
+
+        </h1>
+        <h1 id="myid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eligendi quod illum a laboriosam sequi soluta repudiandae, animi mollitia debitis 
+            
+            reiciendis odit nesciunt sunt adipisci vero quae, nostrum dolore vel!</h1>
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam quaerat dolorem nulla molestias et repudiandae voluptatum molestiae nostrum voluptate.</h4>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+
+
+/*
+p
+{
+    text-align: center;
+    color: red;
+}
+*/
+*
+{
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2,div,header{
+    text-align: right;
+    color: chartreuse;
+    font-style: italic;
+}
